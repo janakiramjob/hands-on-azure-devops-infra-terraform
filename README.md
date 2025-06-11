@@ -17,3 +17,19 @@ It includes deployments for:
 
 ## 📌 Project Structure
 
+hands-on-azure-devops-infra-terraform/
+├── terraform/
+│ ├── aks/
+│ ├── app_services/
+│ ├── function_apps/
+│ ├── vms/
+│ └── networking/
+├── pipelines/
+│ ├── ci-pipelines/
+│ └── cd-pipelines/
+├── scripts/
+│ ├── automation.sh
+│ └── cleanup.sh
+├── docs/
+│ └── architecture-diagram.png
+└── README.md
