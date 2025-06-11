@@ -1,0 +1,32 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Logs
+*.log
+
+# Environment files
+.env
+*.env
+
+# Python (if scripting used)
+__pycache__/
+*.pyc
+
+# Shell script temp files
+*.swp
+
+# VSCode / JetBrains IDEs
+.vscode/
+.idea/
+
+# Node.js (if frontend involved)
+node_modules/
+
+# MacOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Except for .gitignore itself
+!.gitignore
